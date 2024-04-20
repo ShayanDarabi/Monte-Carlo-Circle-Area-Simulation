@@ -1,2 +1,4 @@
 # Monte Carlo Circle Area Simulation
 Using Monte Carlo simulation, we want to calculate the area of a unit circle given its diameter. For this purpose, we generate the coordinates of 10,000 points randomly, and calculate the distance of each point from the center of the circle (0.5, 0.5). If the distance of a point from 0.5 is greater than 0.5, it means it is outside the circle. Conversely, if the distance of a point from the center of the circle is less than or equal to 0.5, it means the point is inside or on the circumference of the circle. We assign the number 0 to points outside the circle, and the number 1 to points inside the circle. Using the Python programming language, we then calculate the area of the circle.
+
+<img src="https://github.com/ShayanDarabi/Monte-Carlo-Circle-Area-Simulation/blob/main/Monte%20Carlo.jpg" alt="Alt Text" width="500" height="500">
